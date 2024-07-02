@@ -5,7 +5,7 @@ GOPKG_PREFIX = github.com/linuxdeepin/lastore-daemon
 GOPATH_DIR = gopath
 
 pwd := ${shell pwd}
-GoPath := GOPATH=${pwd}:${pwd}/vendor:${CURDIR}/${GOPATH_DIR}:${GOPATH}
+GoPath := GOPATH=${pwd}:${pwd}/vendor:${CURDIR}/${GOPATH_DIR}:${GOPATH}:/usr/share/gocode
 
 GOBUILD = go build
 GOTEST = go test -v

@@ -1,5 +1,5 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: lastore-daemon
+Upstream-Name: deepin-update-manager
 
 Files: *
 Copyright: 2015 Deepin Technology Co., Ltd.
